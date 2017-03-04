@@ -1,4 +1,5 @@
-##Project Title: Theater Seat Selector
+##Project Title: 
+Grand Circus Theater Seat Selector
 
 ##Description: 
 Mock Theater application for reserving seats.
