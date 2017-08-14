@@ -27,6 +27,8 @@ $(document).ready(function() {
             $("#seatPlace").val(seatId);
             //change selected seats to open seats.
         } else if ($(this).attr('src') === 'assets/selectSeat.png') {
+            $('form').hide();
+            $('div.popup').hide();
             $(this).attr('src', 'assets/openSeat.png');
             $("#seatPlace").val('');
             //display info for occupied seats.
